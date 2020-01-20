@@ -1,7 +1,7 @@
 # EV3-AdvColorSensor-Block
 ![](https://i0.wp.com/www.ofdl.nctu.me/wp-content/uploads/2020/01/EV3_AdvCol_OFDL.jpg?w=592&ssl=1)
 
-You can download ev3b file to import this block：[HTIRSeekerV2_OFDL_V5.0.ev3b](https://github.com/a10036gt/EV3-AdvHTIRSeekerV2-Block/releases/download/5.0/HTIRSeekerV2_OFDL_V5.0.ev3b)
+You can download ev3b file to import this block：[AdvEV3Col_OFDL_V1.2.ev3b](https://github.com/a10036gt/EV3-AdvColorSensor-Block/releases/download/1.2/AdvEV3Col_OFDL_V1.2.ev3b)
 
 What’s EV3 AdvColorSensor Block？
 
