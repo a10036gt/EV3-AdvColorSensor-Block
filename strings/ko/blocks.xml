@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<EditorStrings>
+   <PolyGroups ModuleName="Advanced EV3 Color">
+      <PolyGroup Name="Advanced EV3 Color" DisplayName="EV3 Color Sensor Advanced - OFDL Dev." DisplayNamePrefix="Adv EV3 Color">
+         <Parameter Name="Port" DisplayName="Port">
+            <Description><![CDATA[<p>Port of sensor</p>]]></Description>
+         </Parameter>
+         <Parameter Name="Value" DisplayName="Output">
+            <Description><![CDATA[<p>Output value</p>]]></Description>
+         </Parameter>
+         <Parameter Name="Min" DisplayName="Minimum Raw Value Set">
+            <Description><![CDATA[<p>Minimum Raw value Set</p>]]></Description>
+         </Parameter>
+         <Parameter Name="Max" DisplayName="Maximum Raw Value Set">
+            <Description><![CDATA[<p>Minimum Raw value Set</p>]]></Description>
+         </Parameter>
+         <Block Mode="Configuration" DisplayName="Sensor Configuration">
+            <Description><![CDATA[<p>Sensor Configuration</p>]]></Description>
+         </Block>
+         <Block Mode="ReadEV3ColNorm" DisplayName="Read Normalize Value">
+            <Description><![CDATA[<p>ReadEV3ColNorm</p>]]></Description>
+         </Block>
+         <Block Mode="ReadEV3ColRaw" DisplayName="Read Raw Value">
+            <Description><![CDATA[<p>ReadEV3ColRaw</p>]]></Description>
+         </Block>
+         <Category Name="EV3_Norm" DisplayName="Read Normalize Value (Faster)">
+            <Block Mode="EV3_Norm1" DisplayName="Port 1">
+               <Description><![CDATA[<p>ReadEV3ColNorm 1</p>]]></Description>
+            </Block>
+            <Block Mode="EV3_Norm2" DisplayName="Port 2">
+               <Description><![CDATA[<p>ReadEV3ColNorm 2</p>]]></Description>
+            </Block>
+            <Block Mode="EV3_Norm3" DisplayName="Port 3">
+               <Description><![CDATA[<p>ReadEV3ColNorm 3</p>]]></Description>
+            </Block>
+            <Block Mode="EV3_Norm4" DisplayName="Port 4">
+               <Description><![CDATA[<p>ReadEV3ColNorm 4</p>]]></Description>
+            </Block>
+         </Category>
+      </PolyGroup>
+   </PolyGroups>
+</EditorStrings>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+	<PolyGroups ModuleName="Advanced EV3 Color" ModuleVersion="1.2(By OFDL Dev.)">
+		<PolyGroup Name="Advanced EV3 Color" BlockFamily="Sensor">
+			<Parameter Name="Port" CompilerDirectives="OneInputPort" Direction="Input" DefaultValue="1.3" />
+			<Parameter Name="Value" Identification="builtin://Identification_MeasuredLight.png" DataType="Single" Direction="Output" />
+			<Parameter Name="Min" Identification="builtin://Identification_Threshold_Equal_-2.png" DataType="Single" Direction="Input" DefaultValue="0"/>
+			<Parameter Name="Max" Identification="builtin://Identification_Threshold_Less_+2.png" DataType="Single" Direction="Input" DefaultValue="3072" />
+			<Hardware>
+				<NXTPlotColor>#ffff3132</NXTPlotColor>
+				<EV3PlotColor>#ff785028</EV3PlotColor>
+				<Direction>Input</Direction>
+				<DefaultPort>1.3</DefaultPort>
+			</Hardware>
+			<Category Name="EV3_Norm">
+				<Block>
+					<Mode>EV3_Norm1</Mode>
+					<Reference Type="VILib" Name="Read_NormEV3Col_P1.vix" />
+					<ParameterReference Name="Value" />
+					<Flags>PBROnly</Flags>
+				</Block>
+				<Block>
+					<Mode>EV3_Norm2</Mode>
+					<Reference Type="VILib" Name="Read_NormEV3Col_P2.vix" />
+					<ParameterReference Name="Value" />
+					<Flags>PBROnly</Flags>
+				</Block>
+				<Block>
+					<Mode>EV3_Norm3</Mode>
+					<Reference Type="VILib" Name="Read_NormEV3Col_P3.vix" />
+					<ParameterReference Name="Value" />
+					<Flags>PBROnly</Flags>
+				</Block>
+				<Block>
+					<Mode>EV3_Norm4</Mode>
+					<Reference Type="VILib" Name="Read_NormEV3Col_P4.vix" />
+					<ParameterReference Name="Value" />
+					<Flags>PBROnly</Flags>
+				</Block>
+			</Category>
+			<Block>
+				<Mode>ReadEV3ColNorm</Mode>
+				<Reference Type="VILib" Name="Read_NormEV3Col.vix" />
+				<ParameterReference Name="Port" />
+				<ParameterReference Name="Value" />
+				<Flags>PBROnly</Flags>
+			</Block>
+			<Block>
+				<Mode>ReadEV3ColRaw</Mode>
+				<Reference Type="VILib" Name="Read_RawEV3Col.vix" />
+				<ParameterReference Name="Port" />
+				<ParameterReference Name="Value" />
+				<Flags>PBROnly</Flags>
+			</Block>
+			<Block>
+				<Mode>Configuration</Mode>
+				<Reference Type="VILib" Name="Adv_SensorConf.vix" />
+				<ParameterReference Name="Port" />
+				<ParameterReference Name="Min" />
+				<ParameterReference Name="Max" />
+				<PaletteInfo Weight="0.5" />
+				<Flags>PBROnly</Flags>
+			</Block>
+		</PolyGroup>
+	</PolyGroups>
+</EditorDefinitions>
