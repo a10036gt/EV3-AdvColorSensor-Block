@@ -9,6 +9,6 @@ EV3 ToolBox Block, a enhanced version of EV3 Color sensor block, you can read th
 
 And our block has been optimized, the read speed is fast, can make your robot more stable.
 
-使用說明：https://www.ofdl.nctu.me/ev3-hack/adv-ev3-color-sensor-block/
+使用說明：https://ofdl.tw/ev3-hack/adv-ev3-color-sensor-block/
 
-User Guide：https://www.ofdl.nctu.me/en/ev3-hacking/adv-ev3-color-block/
+User Guide：https://ofdl.tw/en/ev3-hacking/adv-ev3-color-block/
